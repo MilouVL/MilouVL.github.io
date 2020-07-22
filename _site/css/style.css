@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   display: block;
   float: left;
-  padding: 9em 0;
+  padding: 8em 0;
   clear: both; }
   @media screen and (max-width: 768px) {
     #colorlib-hotel,
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000; }
 
 .services {
-  padding: 7em 2em; }
+  padding: 2em 2em; }
   .services .icon {
     margin: 0 auto;
     margin-bottom: 20px;
