@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: scale(1.1); }
 
 #colorlib-hero {
-  height: 950px;
+  height: 750px;
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6, figure {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        height: 950px;
+        height: 750px;
         position: relative; }
         #colorlib-hero .flexslider .slides li .overlay {
           position: absolute;
@@ -547,7 +547,7 @@ h1, h2, h3, h4, h5, h6, figure {
       color: #00BBF0; }
 
 .aside-stretch {
-  background: #00BBF0; }
+  background: transparent; }
   .aside-stretch:after {
     position: absolute;
     top: 0;
@@ -555,12 +555,9 @@ h1, h2, h3, h4, h5, h6, figure {
     bottom: 0;
     content: '';
     width: 360%;
-    background: #00BBF0; }
+    background: transparent; }
   @media screen and (max-width: 768px) {
-    .aside-stretch {
-      background: transparent; }
       .aside-stretch:after {
-        background: transparent;
         display: none; } }
 
 .no-gutters {
